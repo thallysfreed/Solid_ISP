@@ -1,14 +1,9 @@
 package com.silth;
 
-public class Airplane implements IAirTrasnport {
+public class Airplane implements IAirplane {
     @Override
     public void turnOnTurbine() {
         System.out.println("Turn on turbine...");
-    }
-
-    @Override
-    public void turnOnPropeller() {
-        //
     }
 
     @Override

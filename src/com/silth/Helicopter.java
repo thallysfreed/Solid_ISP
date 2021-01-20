@@ -1,10 +1,6 @@
 package com.silth;
 
-public class Helicopter implements IAirTrasnport{
-    @Override
-    public void turnOnTurbine() {
-        //
-    }
+public class Helicopter implements IHelicopter{
 
     @Override
     public void turnOnPropeller() {
